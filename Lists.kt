@@ -9,7 +9,6 @@ fun main() {
         val numbers = mutableListOf("one", "two", "three", "four", "five")
         val weekDays = mutableListOf("Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat")
 
-
         // Read-Write (mutable) List - Operations
            println("Read-Write (mutable) List - Operations\n")
 
@@ -61,7 +60,6 @@ fun main() {
            println("Before removeAll: ${numbers}")
            numbers.removeAll(weekDays)
            println("After use removeAll(): ${numbers}")
-
 
            println("\n-----------------------------------------------\n")
 
